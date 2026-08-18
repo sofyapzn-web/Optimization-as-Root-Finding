@@ -22,7 +22,7 @@ The order of convergence is estimated from the slope of $\log e_{k+1}$ versus $\
 
 ## Contents
 
-`Optimization as Root-Finding.ipynb` — full implementation, convergence analysis, and plots.
+Full implementation, convergence analysis, and plots: `Optimization as Root-Finding.ipynb`
 
 ## Tools
 
