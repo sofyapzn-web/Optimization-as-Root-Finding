@@ -18,7 +18,7 @@ This project implements three optimizers for logistic regression, estimates each
 | BFGS | superlinear | intermediate |
 | Newton's method | ≈ 2.0 | quadratic |
 
-The order of convergence is estimated from the slope of $\log e_{k+1}$ versus $\log e_k$. Newton's method reaches the minimum in about 8 iterations versus hundreds for gradient descent, but each step costs $O(d^3)$ to solve the linear system, so the most efficient method depends on the problem's dimension and conditioning.
+The order of convergence is estimated from the slope of $\log e_{k+1}$ vs $\log e_k$. Newton's method reaches the minimum in about 8 iterations versus hundreds for gradient descent, but each step costs $O(d^3)$ to solve the linear system, so the most efficient method depends on the problem's dimension and conditioning.
 
 ## Contents
 
