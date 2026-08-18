@@ -1,4 +1,4 @@
-# Optimization as Root-Finding
+# optimization as Root-Finding
 
 Training a machine-learning model means minimizing a loss $L(w)$, and the minimum occurs where the gradient vanishes: $\nabla L(w) = 0$. Finding that point is a root-finding problem, so classical root-finding methods and their convergence theory apply directly to optimization.
 
